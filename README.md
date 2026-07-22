@@ -260,3 +260,30 @@ SELECT estado FROM repartidores WHERE id_repartidor = 1;    -- 'Disponible'
 Proyecto académico desarrollado para la asignatura de bases de datos
 (MySQL 2), con fines de aprendizaje sobre modelado relacional, funciones,
 procedimientos, triggers, vistas y consultas SQL avanzadas.
+
+
+# examen
+
+## descripcion
+
+la pizzeria don piccolo desea mejorar el control de sus pedidos para esto se modelo una mejor tabla de pedidos con relacion a los clientes y a las pizzas que permita obtener informacion mas util a la hora de consultar.
+
+## pasos que hice
+
+-copie y pegue las tablas clientes, pizzas, pedidos, detalle_pedido y los inserts, para asi tener un scripts unico del examen que sea funcional.
+-luego agregue el update para la axtualizacion del estado del pedido.
+-finalmente cree 4 consultas que considero necesarias para la pizzeria.
+
+Consulta 1
+"esta ordena los pedidos del mas viejo al mas nuevo para priorizar el hacer de las pizzas, bastante util en situaciones de presion"
+
+Consulta 2 
+"esta da un resume de cuántos pedidos tengo pendientes, cuántos en preparación, cuántos ya entregados."
+
+Consulta 3 
+"Del pedido número 1, quien lo pidio, qué pizza, cuántas de cada una, y cuánto vale con su factura."
+
+Consulta 4
+"muestra todos los pedidos echos en el mes."
+
+
